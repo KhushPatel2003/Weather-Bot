@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 import pyowm 
-owm = pyowm.OWM('79a74b9e386227858d196ccc2d008fe4')
+owm = pyowm.OWM('token')
 
 client = commands.Bot(command_prefix='!', help_command = None)
 
@@ -47,4 +47,4 @@ async def weather(ctx, x):
 #         await message.channel.send(reply1)
 #         await message.channel.send(reply2)
 
-client.run('ODM4ODg1NzM1MTg0MDcyNzI0.YJBnOQ.jojQbZMErWquxox3SvCB1Dz9iDI')
+client.run('token')
